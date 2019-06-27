@@ -4,7 +4,7 @@ $("h1").css("color", "#00FFFF");
 $("h1").css("textAlign", "center");
 //var x = 0;
 var Contacts = [];
-$(save-id).click(function(event)
+$("#save-id").click(function(event)
 {
 var fname = $("#fname").val();
 var sname = $("#sname").val();
@@ -37,6 +37,7 @@ console.log(Contacts);
 
 alert("Saved!");
 }
+});
 
 $("#search-id").click(function(event){
 //function search_function()
@@ -54,7 +55,7 @@ if(contactarray[0].includes(phrase)){
 
 }
 }
-}
+});
  
 //document.getElementById("search").innerHTML = e;
 //}
